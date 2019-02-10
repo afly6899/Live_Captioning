@@ -1,4 +1,4 @@
-package com.example.hello_world;
+package com.google.cloud.android.speech;
 
 import android.Manifest;
 import android.content.pm.PackageManager;
@@ -19,7 +19,7 @@ import android.support.v4.app.ActivityCompat;
 // the only changes are when I was doing app specific things and permission checking
 public class MainActivity extends AppCompatActivity implements ActivityCompat.OnRequestPermissionsResultCallback {
 
-    private static final int PERMISSION_REQUEST_CAMERA = 0;
+
 
     private Button play, stop, record;
     private MediaRecorder myAudioRecorder;
